@@ -5,16 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <form action="">
-        <input type="text">
-        <input type="email">
-        <input type="checkbox">
-        <input type="checkbox">
-        <input type="checkbox">
+        <label for="name">
+            Name: 
+            <input type="text" id="name">
+        </label>
+        <label for="email">
+            Email: 
+            <input type="email" id="email">
+        </label>
+        <label for="bday">
+            <input type="date">
+        </label>
+        <label for="subscription">
+            Site News Subscription
+            <input type="checkbox" id="subscription">
+        </label>
+        <label for="test">
+            Test: 
+            <input type="radio" id="test">
+        </label>
+        <label for="message">
+            Enter text:
+            <textarea name="" id="message" cols="30" rows="10" >
+
+            </textarea>
+        </label>
+        <label for="city">
+            <select name="" id="city">
+                <option value="">
+                    Moscow
+                </option>
+                <option value="">
+                    Ekaterinburg
+                </option>
+               </select>
+        </label>      
         
-        <input type="submit">
+        <button>
+            Enter
+        </button>
+
     </form>
 </body>
 </html>
